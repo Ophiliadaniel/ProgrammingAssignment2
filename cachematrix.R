@@ -20,7 +20,6 @@ makeCahceMatrix <- function(x = matrix()){
   get <- function() x
   
   ##invert the matrix & store in cache
-
   setInverse <- function(solve) cache <<- solve
  
    ##get the inverted matrix 
